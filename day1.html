@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>
+    var vs let vs const
+</title>
+</head>
+<boody>
+<script type="text/javascript">
+    //var variables can be redeclared and updated
+    var greeter="hey hi";
+    var greeter="say hello instead";
+//this means that we can do this within ths same scope and won't get an error
+//let can be updated but not re-declared
+let greeting="say Hi";
+let greeting="say hello instead";
+//error idetifier 'greeting' has already been declared
+//however if same variable is defined indifferent scopes,there will be no error
+//const cannot be updated or redeclared
+const greeting="say hi";
+greeting="say hello instead";
+//error assignment to const variable
+</script>
+</body>
+</html>
+
